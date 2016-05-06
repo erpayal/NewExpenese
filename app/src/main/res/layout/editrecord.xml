@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:background="#fff"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Update Expenses"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:textColor="#00BCD4"
+            android:id="@+id/textView7"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/orangeborder">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:hint="date"
+                android:id="@+id/edt_ndate"
+                android:background="@null"
+                android:padding="10dp"
+                android:gravity="left|center"
+
+
+                android:paddingLeft="5dp"
+
+                android:inputType="number"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/orangeborder">
+
+
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:hint="Enter Category like food,leisure"
+
+                android:id="@+id/textv_category"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:padding="10dp"
+
+
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/orangeborder">
+
+            />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Enter daily expense"
+                android:id="@+id/text_amount"
+                android:background="@null"
+                android:padding="10dp"
+                android:gravity="left|center"
+
+
+                android:paddingLeft="5dp"
+
+                android:inputType="number"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upadte"
+                android:layout_marginTop="10dp"
+                android:id="@+id/button_add"
+                android:layout_weight="1"
+
+
+                android:background="@drawable/orangeborder"
+                android:layout_gravity="right" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

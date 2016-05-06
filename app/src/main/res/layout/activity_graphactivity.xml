@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:text="Weekly Records"
+        android:textColor="#00bcd4"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_gr2"
+        android:gravity="center" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart_m"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+
+        />
+
+
+
+
+
+</LinearLayout>

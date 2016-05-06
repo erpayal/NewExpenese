@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+
+            android:weightSum="1"
+            android:id="@+id/table1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_margin="5dp"
+                android:src="@drawable/img_n1" />
+
+
+            <EditText
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+
+                android:hint="Add Category"
+                android:id="@+id/textv_category"
+                android:gravity="left|center"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/border"
+                android:paddingLeft="5dp"
+
+                android:layout_weight="0.43"
+                />
+
+            />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:hint="Add Amount"
+                android:id="@+id/text_amount"
+                android:gravity="left|center"
+
+
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                />
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="#fff">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Search Expenses"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:textColor="#00BCD4"
+        android:id="@+id/txt_searchexp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+
+       >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#00bcd4"
+            android:textColorHint="#00bcd4"
+            android:hint="Date To"
+            android:id="@+id/edt_sdate"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:gravity="left|center"
+
+          android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:editable="false"
+            android:inputType="text"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_toRightOf="@+id/editText"
+            android:contentDescription="Select Date"
+            android:cropToPadding="true"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#00bcd4"
+            android:src="@drawable/calendar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/orangeborder">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:textColor="#00bcd4"
+            android:textColorHint="#00bcd4"
+            android:hint="Date From"
+            android:id="@+id/edt_sdate1"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:gravity="left|center"
+
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:editable="false"
+            android:inputType="text"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText"
+            android:layout_toRightOf="@+id/editText"
+            android:contentDescription="Select Date"
+            android:cropToPadding="true"
+            android:background="#00bcd4"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/calendar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_search"
+            android:layout_weight="1"
+
+            android:textColor="#fff"
+            android:background="#727272"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+</LinearLayout>

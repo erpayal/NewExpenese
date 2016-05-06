@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.keep.expense.expenesekeep.graphactivity">
+    <item android:id="@+id/action_bargraph"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Monthly report"
+         />
+
+    <item android:id="@+id/action_linegraph"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Daily report"
+         />
+
+
+</menu>

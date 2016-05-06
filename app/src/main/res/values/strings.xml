@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Expenese Keep</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dbhelper">DBHelper</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_graphactivity">graphactivity</string>
+    <string name="title_activity_bar_activity">BarActivity</string>
+    <string name="title_activity_bargraph">Bargraph</string>
+    <string name="title_activity_splashscreen">Expense Keep</string>
+    <string name="title_activity_view_daily_record">ViewDailyRecord</string>
+    <string name="title_activity_view_by">ViewBy</string>
+    <string name="title_activity_viewbylist">Viewbylist</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="new_rate_dialog_title">Rate Me!</string>
+    <string name="new_rate_dialog_never">Never</string>
+    <string name="new_rate_dialog_later">Later</string>
+    <string name="new_rate_dialog_ok">Rate</string>
+    <string name="title_activity_piechart">Piechart</string>
+</resources>

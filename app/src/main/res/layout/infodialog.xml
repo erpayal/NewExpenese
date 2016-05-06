@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="2dp"
+        android:text="* Expense Keep is an application to organize your income and expenses,Expenses are recorded by date,you can review the reports daily, weekly or montly.
+"
+
+        android:id="@+id/textViewi1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="* Track your income and expenses ,classify expenses by category .
+"
+
+        android:id="@+id/textViewi2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="* Delete the records that you have created on daily basis or on montly basis.
+"
+        android:id="@+id/textViewi3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="* You can see your balance on monthly basis.
+"
+        android:id="@+id/textViewi4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="* The application lets you create a backup of your database to restore your information if necessary
+"
+        android:id="@+id/textViewi5" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="* See graphical reports on daily basis,monthly basis and yearly basis
+"
+
+        android:id="@+id/textViewi6" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="* Search your expenses between any two specified days
+"
+        android:id="@+id/textViewi7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="* Set daily reminder at your specified time for reminding about adding expense
+"
+        android:id="@+id/textViewi8" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

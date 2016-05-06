@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keep.expense.expenesekeep" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+    <application
+        android:name=".AnalyticsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/wallet"
+        android:label="@string/app_name"
+        android:theme="@style/AppThemeNew" >
+
+        <activity android:name=".Frontpage"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+
+        </activity>
+
+        <activity android:name=".ViewRecords" >
+        </activity>
+        <activity android:name=".MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name=".CategoryList"
+            android:windowSoftInputMode="adjustPan"
+            >
+        </activity>
+        <activity
+            android:name=".Bar_activity"
+            android:label="@string/title_activity_bar_activity" >
+        </activity>
+        <activity android:name=".graphactivity"
+            android:label="Daily Report">
+        </activity>
+        <activity android:name=".Balancesheet" >
+        </activity>
+        <activity
+            android:name=".Bargraph"
+            android:label="Yearly Report" >
+        </activity>
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/title_activity_splashscreen" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ViewDailyRecord"
+            android:label="Daily Records" >
+        </activity>
+
+        <activity
+            android:name=".Viewbylist"
+            android:label="@string/title_activity_viewbylist" >
+        </activity>
+        <activity
+            android:name=".Addcategory"
+            android:label="Add category"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name=".Viewbydailyactivity"
+            android:label="View By Day" >
+        </activity>
+        <activity
+            android:name=".Viewbyweeklyactivity"
+            android:label="View By Week" >
+        </activity>
+        <activity
+            android:name=".ViewBymonthlyact"
+            android:label="View By Month" >
+        </activity>
+        <activity
+            android:name=".Viewbysearch"
+            android:label="Search Result" >
+        </activity>
+        <activity
+            android:name=".DailyAlram"
+            android:label="Daily Reminder"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+
+        <receiver android:name=".RebootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".AlramRecevier" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Piechart"
+            android:label="Category wise monthly report" >
+        </activity>
+        <activity
+            android:name=".Searchclass"
+            android:label="Search Records" >
+        </activity>
+
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+    </application>
+
+</manifest>
